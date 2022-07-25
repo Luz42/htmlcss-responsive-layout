@@ -93,6 +93,12 @@
     padding: 0 10px;
   }
 
+   .menu mark{
+    padding: 8px;
+    border-radius: 25px;
+    background-color: white;
+   }
+
   header .fa-bars,
   header img{
     vertical-align: middle;
