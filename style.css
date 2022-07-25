@@ -188,6 +188,11 @@
         flex-wrap: nowrap;
     }
 
+    #planning .container{
+        width: 60%;
+        margin: 0 auto;
+    }
+
     .menu{
         width: 50%;
         display: flex;
