@@ -112,6 +112,19 @@ a.button{
     text-align: center;
 }
 
+#partners h3,
+#benefits h3,
+#benefits .number{
+    color: #9792e4;
+}
+
+section:nth-of-type(even),
+  .card>.arrow,
+  #partners .card,
+  #benefits a.button{
+    background-color:#9792e4;
+  }
+
 
 
 
@@ -128,7 +141,7 @@ a.button{
   }
 
   .menu,
-  .text.text-left,
+  #planning .text.text-left,
   #partners .card,
   .text.text-center
   {
@@ -161,11 +174,6 @@ a.button{
     margin-bottom: 50px;
   }
 
-  section:nth-of-type(even){
-    background-color:#9792e4;
-  }
-
-
   /* product-presentation */
   #product-presentation .card{
     background-color: #b5ddff;
@@ -190,7 +198,7 @@ a.button{
   }
 
   .text.custom .button{
-display: inline-block;
+    display: inline-block;
     margin-top: 3%;
   }
 
@@ -215,7 +223,7 @@ display: inline-block;
   .card>.arrow{
     width: 50px;
     height: 50px;
-    background-color: #9792e4;
+    /* background-color: #9792e4; */
     border-radius: 50%;
     padding: 5px;
     align-self: center;
@@ -225,9 +233,9 @@ display: inline-block;
 
   /* partners */
 
-#partners .card{
+/* #partners .card{
     background-color: #9792e4;
-}
+} */
 
 #partners img{
     width: 200px;
@@ -256,13 +264,21 @@ display: inline-block;
     text-align: center;
   }
 
-#partners h3{
-    color: #9792e4;
+/* /partners */
+
+/* benefits */
+
+/* #benefits a.button{
+    background-color: #9792e4;
+} */
+
+#benefits h3{
+    font-size: 1.5rem;
 }
 
+/* /benefits */
 
-  /* /partners */
-  footer{
+footer{
     background-color: #333333;
   }
 
