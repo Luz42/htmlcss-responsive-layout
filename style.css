@@ -113,7 +113,7 @@ a.button{
 }
 
 #partners h3,
-#benefits h3,
+#benefits h3:not(#benefits .text.text-center>h3),
 #benefits .number,
 h1,
 #about-us .text.custom,
@@ -233,6 +233,9 @@ section:nth-of-type(even),
     border-radius: 50%;
     padding: 5px;
     align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   /* /planning */
@@ -281,6 +284,11 @@ section:nth-of-type(even),
 
 #benefits h3{
     font-size: 1.5rem;
+}
+
+#benefits h2{
+  font-size: 2em;
+  padding-bottom: 5%;
 }
 
 /* /benefits */
@@ -452,22 +460,22 @@ footer{
 
   /***** debug *****/
 
-  .debug section{
+  /* .debug section{
     min-height: 500px;
-  }
+  } */
 
-  .debug footer {
+  /* .debug footer {
     min-height: 160px;
-  }
+  } */
 
-  .debug .column{
+  /* .debug .column{
     min-height: 350px;
     border: 1px dashed red;
-  }
+  } */
 
-  .debug .card{
+  /* .debug .card{
     height: 100%;
-  }
+  } */
 
   /* TODO:
     sistemare freccia e 
