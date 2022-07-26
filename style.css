@@ -23,7 +23,7 @@
     text-decoration: none;
   }
 
-  h3{
+  h3, h1{
     font-size: 2rem;
   }
 
@@ -114,14 +114,18 @@ a.button{
 
 #partners h3,
 #benefits h3,
-#benefits .number{
+#benefits .number,
+h1,
+#about-us .text.custom,
+#free a.button{
     color: #9792e4;
 }
 
 section:nth-of-type(even),
   .card>.arrow,
   #partners .card,
-  #benefits a.button{
+  #benefits a.button,
+  #about-us a.button{
     background-color:#9792e4;
   }
 
@@ -144,7 +148,7 @@ section:nth-of-type(even),
   #planning .text.text-left,
   #partners .card,
   .text.text-center
-  {
+    {
     color: #fff;
   }
 
@@ -237,7 +241,8 @@ section:nth-of-type(even),
     background-color: #9792e4;
 } */
 
-#partners img{
+#partners img,
+#about-us img{
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -278,6 +283,37 @@ section:nth-of-type(even),
 
 /* /benefits */
 
+/* about-us */
+#about-us .button,
+blockquote{
+  font-size: 0.7em;
+}
+/* /about-us */
+
+/* free */
+#free a.button{
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+#free strong{
+  color: #fdc15f;
+  font-size: 6rem;
+}
+
+#free p:first-of-type{
+  color: #ffffff69;
+}
+
+#free blockquote>a{
+  text-decoration: underline;
+}
+
+#free blockquote>a:visited{
+  color: #fff;
+}
+
+/* /free */
 footer{
     background-color: #333333;
   }
@@ -314,6 +350,24 @@ footer{
         width: calc(100% / 2);
         padding: 0 10px;
       }
+
+      #about-us .row{
+        flex-wrap: nowrap;
+      }
+
+    .column.description{
+      width: 70%;
+    }
+
+    .column.member{
+      width: 30%;
+    }
+
+    #free .container{
+      max-width: 768px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
 
   }
@@ -397,3 +451,7 @@ footer{
   .debug .card{
     height: 100%;
   }
+
+  /* TODO:
+    sistemare freccia e 
+    aggiungere virgolette all'immagine */
