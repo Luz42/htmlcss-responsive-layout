@@ -341,7 +341,8 @@ footer{
       width: calc(100% / 3 * 2);
     }
 
-    #product-presentation img{
+    #product-presentation img,
+    #planning img{
       width: 50%;
     }
 
@@ -378,6 +379,8 @@ footer{
       margin-left: auto;
       margin-right: auto;
     }
+
+
 
 
   }
@@ -434,6 +437,10 @@ footer{
     #benefits .column {
         width: calc(100% / 3);
         padding: 0 10px;
+      }
+    
+      #planning img{
+        width: 100%;
       }
 
   }
