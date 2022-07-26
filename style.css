@@ -8,6 +8,7 @@
 
   body {
     font-family: sans-serif;
+    line-height: 2rem;
   }
 
   img{
@@ -16,6 +17,14 @@
 
   ul{
     list-style-type: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  h3{
+    font-size: 2rem;
   }
 
 
@@ -61,12 +70,32 @@
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 5%;
   }
 
   .card.text-left{
     text-align:left;
   }
+
+  .text>*{
+    padding: 9% 0
+  }
+
+  .menu mark, .button{
+    padding: 8px;
+    border-radius: 25px;
+    background-color: white;
+   }
+
+a.button{
+    color: white;
+    background-color: #0084fd;
+    width: 60%;
+    padding: 1% 0;
+    text-align: center;
+}
+
+
 
 
   /*** /shared ***/
@@ -93,11 +122,7 @@
     padding: 0 10px;
   }
 
-   .menu mark{
-    padding: 8px;
-    border-radius: 25px;
-    background-color: white;
-   }
+    
 
   header .fa-bars,
   header img{
@@ -127,6 +152,28 @@
   #product-presentation .column:first-child .card {
     padding-bottom: 0;
   }
+
+  #product-presentation h3,
+  #product-presentation .card i
+  {
+    color: #0084fd;
+  }
+
+  #product-presentation .text.custom>*:not(.text>.button) {
+    padding: 3% 0;
+  }
+
+  #product-presentation .text.custom{
+    text-align: start;
+    padding-bottom: 10%;
+  }
+
+  .text.custom .button{
+display: inline-block;
+    margin-top: 3%;
+  }
+
+
 
   /* /product-presentation */
 
