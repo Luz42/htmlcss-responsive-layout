@@ -203,7 +203,7 @@ display: inline-block;
 
   /* planning */
 
-   #planning .container{
+   .padding.container{
     padding: 5% 3vh;
    }
 
@@ -350,6 +350,11 @@ display: inline-block;
         padding-left: 3vh;
         text-align: left;
     }
+
+    #benefits .column {
+        width: calc(100% / 3);
+        padding: 0 10px;
+      }
 
   }
 
