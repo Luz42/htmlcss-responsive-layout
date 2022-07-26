@@ -73,12 +73,13 @@
     padding: 5%;
   }
 
-  .card.text-left{
+  .card.text-left,
+  .text-left{
     text-align:left;
   }
 
   .text>*{
-    padding: 6% 0
+    padding: 3vh 0
   }
 
   .text i:not(a.button i){
@@ -114,7 +115,9 @@ a.button{
     line-height: 80px;
   }
 
-  .menu{
+  .menu,
+  .text.text-left
+  {
     color: #fff;
   }
 
@@ -190,6 +193,10 @@ display: inline-block;
     padding: 20px;
    }
 
+  #planning .column:first-child .card{
+    background-color: inherit;
+  }
+
   /* /planning */
   footer{
     background-color: #333333;
@@ -249,6 +256,10 @@ display: inline-block;
     .menu{
         width: 50%;
         display: flex;
+    }
+
+    #planning .column:nth-child(2){
+        padding-top: 20%;
     }
 
   }
