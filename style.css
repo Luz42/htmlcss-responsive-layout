@@ -78,7 +78,11 @@
   }
 
   .text>*{
-    padding: 9% 0
+    padding: 6% 0
+  }
+
+  .text i:not(a.button i){
+    font-size: 5rem;
   }
 
   .menu mark, .button{
@@ -154,7 +158,7 @@ a.button{
   }
 
   #product-presentation h3,
-  #product-presentation .card i
+  #product-presentation .card i:not(a.button i)
   {
     color: #0084fd;
   }
@@ -173,7 +177,9 @@ display: inline-block;
     margin-top: 3%;
   }
 
-
+.fa-apple{
+    margin-right: 3%;
+}
 
   /* /product-presentation */
 
