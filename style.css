@@ -116,7 +116,8 @@ a.button{
   }
 
   .menu,
-  .text.text-left
+  .text.text-left,
+  #partners .card
   {
     color: #fff;
   }
@@ -129,7 +130,7 @@ a.button{
     padding: 0 10px;
   }
 
-    
+
 
   header .fa-bars,
   header img{
@@ -207,6 +208,36 @@ display: inline-block;
   }
 
   /* /planning */
+
+  /* partners */
+
+  #partners .card{
+    background-color: #9792e4;
+}
+
+#partners img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+.text p::before,
+.text p::after{
+    font-size: 2em;
+    vertical-align: text-bottom;
+    line-height: 0;
+}
+
+#partners .text p::before{
+  content: open-quote;
+}
+
+#partners .text p::after {
+    content: close-quote;
+}
+
+  /* /partners */
   footer{
     background-color: #333333;
   }
