@@ -36,6 +36,15 @@
     padding: 0 3vh;
   }
 
+  .card.text-left,
+  .text-left{
+    text-align:left;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
 
   /** flex **/
   .flex{
@@ -61,6 +70,10 @@
     justify-content: space-between;
   }
 
+  /* .grow{
+    flex-grow: 1;
+  } */
+
 
 
   /** /flex **/
@@ -74,11 +87,6 @@
     display: flex;
     flex-direction: column;
     padding: 5%;
-  }
-
-  .card.text-left,
-  .text-left{
-    text-align:left;
   }
 
   .text>*,
@@ -121,7 +129,8 @@ a.button{
 
   .menu,
   .text.text-left,
-  #partners .card
+  #partners .card,
+  .text.text-center
   {
     color: #fff;
   }
@@ -247,6 +256,10 @@ display: inline-block;
     text-align: center;
   }
 
+#partners h3{
+    color: #9792e4;
+}
+
 
   /* /partners */
   footer{
@@ -280,6 +293,11 @@ display: inline-block;
         padding-left: 3vh;
         text-align: left;
     }
+
+    #benefits .column {
+        width: calc(100% / 2);
+        padding: 0 10px;
+      }
 
 
   }
