@@ -197,6 +197,15 @@ display: inline-block;
     background-color: inherit;
   }
 
+  .card>.arrow{
+    width: 50px;
+    height: 50px;
+    background-color: #9792e4;
+    border-radius: 50%;
+    padding: 5px;
+    align-self: center;
+  }
+
   /* /planning */
   footer{
     background-color: #333333;
