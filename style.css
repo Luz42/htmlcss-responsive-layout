@@ -121,7 +121,7 @@ a.button{
 #benefits h3:not(#benefits .text.text-center>h3),
 #benefits .number,
 h1,
-#about-us .text.custom,
+#about-us .text.custom.text-left,
 #free a.button,
 footer u{
     color: #9792e4;
@@ -305,11 +305,12 @@ blockquote{
   font-size: 0.7em;
 }
 
-#about-us i{
+#about-us figure>i{
   position: absolute;
-  top: 0;
-  right: 40%;
+  left: 30%;
 }
+
+/*         */
 /* /about-us */
 
 /* free */
@@ -383,6 +384,10 @@ footer{
 
       #about-us .row{
         flex-wrap: nowrap;
+      }
+
+      #about-us figure>i{
+        left: 50%;
       }
 
     .column.description{
